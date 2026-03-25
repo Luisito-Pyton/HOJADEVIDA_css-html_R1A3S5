@@ -1,0 +1,73 @@
+/* Configuraciones Generales */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #e6f2ff;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Contenedor Principal */
+.main-table {
+    width: 85%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    border-collapse: collapse;
+    border: 1px solid #cccccc;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Encabezado */
+.header {
+    background-color: #636363;
+    color: white;
+}
+
+.header-inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header-text-cell {
+    padding: 40px;
+    vertical-align: middle;
+}
+
+.header-photo-cell {
+    padding: 20px;
+    vertical-align: middle;
+    text-align: center;
+    width: 250px;
+}
+
+/* Estilo del Gatito */
+.profile-photo {
+    border: 3px solid #ffffff;
+    border-radius: 10px; /* Bordes un poco redondeados */
+    display: block;
+    margin: 0 auto;
+}
+
+h1 { margin: 0; font-size: 26px; }
+h2 { margin: 5px 0 15px 0; font-weight: normal; color: #f0f0f0; }
+
+/* Cuerpo y Secciones */
+.content-cell {
+    padding: 30px;
+}
+
+.content-inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h3 { 
+    color: #003366; 
+    border-bottom: 2px solid #003366; 
+    padding-bottom: 5px; 
+    margin-top: 0;
+}
+
+ul { padding-left: 20px; }
+.contact-info { font-size: 0.9em; line-height: 1.6; }
